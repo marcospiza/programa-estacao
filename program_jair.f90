@@ -1,7 +1,7 @@
 program pibic2
 implicit none
 real,dimension(:),allocatable:: TMAX,TMED,TMIN,LAT, HORA,UR,VEL,LT
-real,dimension(:),allocatable::ANO, MES, DIA
+integer,dimension(:),allocatable::ANO, MES, DIA
 real,parameter:: pi = 3.1415927
 real,parameter:: Gsc = 0.0820
 real,parameter:: as = 0.25
