@@ -1,0 +1,10 @@
+teste banco,tmax,tmin,lat,hora,tmed,ur,vel
+"30-03-2016",25,20,-8,52,22,30,13
+"30-05-2016",28,23,-9,60,23,80,15
+"04-03-2015",30,20,-80,83,22,100,20
+
+### OBS. Modifiquei o valor da hora da terceira linha. Estava maior do que 24
+## A terceira linha estava assim: 4-03-2015 ! Isso causa erro pq vc separou dia,mes e ano contando a partir de quando começa os valores de cada variavel
+## Por exeplo, dia READ(DTA(1:2),"(I2)") DIA(I). Neste caso, dia seria so o primeiro character. Eu corrigi modificando o arquivo. No entanto, tem como modificar 
+## o codigo para ler os dois tipos
+
